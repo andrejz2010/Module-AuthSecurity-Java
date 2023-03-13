@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+    <head>
+        <title>Validation Exercise</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body style="margin: 2rem; font: 14px Lucida Grande, Helvetica, Arial, sans-serif;">
+        <h1>Validation Exercise</h1>
+        <form action="#" th:action="@{/phone-number}" th:object="${phoneNumber}" method="post">
+            <input type="text" th:field="*{phone}" />
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
