@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run app" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" activateToolWindowBeforeRun="false">
+    <module name="Module-AuthSecurity-Java.main" />
+    <selectedOptions>
+      <option name="spring.boot.profiles" visible="false" />
+    </selectedOptions>
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.moduleauthsecurityjava.ModuleAuthSecurityJavaApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <option name="INCLUDE_PROVIDED_SCOPE" value="false" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
