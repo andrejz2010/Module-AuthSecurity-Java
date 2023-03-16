@@ -7,7 +7,8 @@
     <body style="margin: 2rem; font: 14px Lucida Grande, Helvetica, Arial, sans-serif;">
         <h1>Validation Exercise</h1>
         <form action="#" th:action="@{/phone-number}" th:object="${phoneNumber}" method="post">
-            <input type="text" th:field="*{phone}" />
+            <label for="phone">Phone number:</label>
+            <input type="text" id="phone" th:field="*{phone}" />
             <input type="submit" value="Submit" />
         </form>
     </body>

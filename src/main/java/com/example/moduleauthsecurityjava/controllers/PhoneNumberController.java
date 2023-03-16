@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PhoneNumberController {
     @PostMapping("/phone-number")
     public String phoneNumberSubmit(@ModelAttribute PhoneNumberRequest request) {
-        System.out.println("\033[96mThe user submitted the phone number: " + request.getPhone());
+        System.out.println("\033[96mThe user submitted the phone number: " + request.getPhone() + "\033[0m");
         return "Successful!";
     }
 }
