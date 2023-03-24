@@ -2,6 +2,5 @@
 
 ## Getting started
 1. Clone this repository
-2. Open the repo in IntelliJ
-3. Run the `Run app` run configuation using the green play arrow
+2. Execute `./gradlew run` in the console
 4. Go to `http://localhost:8080/` to see the app running
