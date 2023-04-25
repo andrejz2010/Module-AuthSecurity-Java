@@ -17,3 +17,6 @@ Your trainer can show you how to do this, if you need any help.
 
 5. Run this command to run your code:  
 `./gradlew run`
+
+6. Go to `http://localhost:8080/` to see the app running
+
